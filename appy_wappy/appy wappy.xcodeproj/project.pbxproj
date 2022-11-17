@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76500153A7C9DA28ADE841F /* appy_wappyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7650E8DD3B7170C7DD8E639 /* appy_wappyApp.swift */; };
+		F76500D2AFA7A5928D7C3229 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76509AFE3B88ED83FFE1158 /* ContentView.swift */; };
+		F76501946790381928DC46ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F765051DDFA0D693DE1C6CC5 /* Preview Assets.xcassets */; };
+		F76501BAFDC74E47D601E00F /* appy_wappyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7650745A84697F2DEEA2C78 /* appy_wappyUITestsLaunchTests.swift */; };
+		F76502E03EC5F0E92CBF83DE /* appy_wappyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76504EC17CF13F82309C3FF /* appy_wappyUITests.swift */; };
+		F765043318CCA6DDAF0AA3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76508EFB609728C804D278D /* Assets.xcassets */; };
+		F76505DB6377135803B3BEC0 /* appy_wappyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76509BF690CC59CE3BC4B88 /* appy_wappyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F765057E7A6C167FC699C925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F765059F6A9585590C60202B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7650EB98A6A012CB70AFDF2;
+			remoteInfo = "appy wappy";
+		};
+		F7650E5CB74C13E28457EC9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F765059F6A9585590C60202B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7650EB98A6A012CB70AFDF2;
+			remoteInfo = "appy wappy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76504EC17CF13F82309C3FF /* appy_wappyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appy_wappyUITests.swift; sourceTree = "<group>"; };
+		F765051DDFA0D693DE1C6CC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76506C437B1898D35408589 /* appy wappyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appy wappyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7650745A84697F2DEEA2C78 /* appy_wappyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appy_wappyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F76508EFB609728C804D278D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76509AFE3B88ED83FFE1158 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F76509BF690CC59CE3BC4B88 /* appy_wappyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appy_wappyTests.swift; sourceTree = "<group>"; };
+		F76509C1DAD4688C544CE1B2 /* appy wappyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appy wappyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7650AB33ACA3E2FBB939195 /* appy wappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appy wappy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7650E8DD3B7170C7DD8E639 /* appy_wappyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appy_wappyApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F765036BCDF01685134513A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76509BB5F9E61EA8C1EDAE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7650D18B3AD217CB274EF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F765005700223EE26F2EEFFC /* appy wappyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76509BF690CC59CE3BC4B88 /* appy_wappyTests.swift */,
+			);
+			path = "appy wappyTests";
+			sourceTree = "<group>";
+		};
+		F765015C9B29886395DB5734 = {
+			isa = PBXGroup;
+			children = (
+				F7650D5ABF0532C036854F6F /* Products */,
+				F7650EA699627B1EA91B28FF /* appy wappy */,
+				F765005700223EE26F2EEFFC /* appy wappyTests */,
+				F76503382213DB5ADEC5DC84 /* appy wappyUITests */,
+			);
+			sourceTree = "<group>";
+		};
+		F7650191D38B6706D837BF29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F765051DDFA0D693DE1C6CC5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F76503382213DB5ADEC5DC84 /* appy wappyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F76504EC17CF13F82309C3FF /* appy_wappyUITests.swift */,
+				F7650745A84697F2DEEA2C78 /* appy_wappyUITestsLaunchTests.swift */,
+			);
+			path = "appy wappyUITests";
+			sourceTree = "<group>";
+		};
+		F7650D5ABF0532C036854F6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7650AB33ACA3E2FBB939195 /* appy wappy.app */,
+				F76506C437B1898D35408589 /* appy wappyTests.xctest */,
+				F76509C1DAD4688C544CE1B2 /* appy wappyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7650EA699627B1EA91B28FF /* appy wappy */ = {
+			isa = PBXGroup;
+			children = (
+				F76508EFB609728C804D278D /* Assets.xcassets */,
+				F7650191D38B6706D837BF29 /* Preview Content */,
+				F7650E8DD3B7170C7DD8E639 /* appy_wappyApp.swift */,
+				F76509AFE3B88ED83FFE1158 /* ContentView.swift */,
+			);
+			path = "appy wappy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F765088DD8FD78D1B9285FA6 /* appy wappyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76508D99314240048E97051 /* Build configuration list for PBXNativeTarget "appy wappyTests" */;
+			buildPhases = (
+				F765077BEEE2B16EC6DFA6A5 /* Sources */,
+				F76509BB5F9E61EA8C1EDAE2 /* Frameworks */,
+				F76509A4F63FD661874FFBA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7650E6BD1CE9A035F49A222 /* PBXTargetDependency */,
+			);
+			name = "appy wappyTests";
+			productName = "appy wappyTests";
+			productReference = F76506C437B1898D35408589 /* appy wappyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7650A2D1E7125405AFA9A5F /* appy wappyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7650A4BAA157984B8177C02 /* Build configuration list for PBXNativeTarget "appy wappyUITests" */;
+			buildPhases = (
+				F76509039852129413B4F68A /* Sources */,
+				F765036BCDF01685134513A0 /* Frameworks */,
+				F7650EDD9947EC15467E6349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7650EB8FE1F4088B31F6A10 /* PBXTargetDependency */,
+			);
+			name = "appy wappyUITests";
+			productName = "appy wappyUITests";
+			productReference = F76509C1DAD4688C544CE1B2 /* appy wappyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F7650EB98A6A012CB70AFDF2 /* appy wappy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7650E19C9266318F00A0E3E /* Build configuration list for PBXNativeTarget "appy wappy" */;
+			buildPhases = (
+				F765038653AEEB2A9545219C /* Sources */,
+				F7650D18B3AD217CB274EF74 /* Frameworks */,
+				F76502173E7121062D64D0C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "appy wappy";
+			productName = "appy wappy";
+			productReference = F7650AB33ACA3E2FBB939195 /* appy wappy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F765059F6A9585590C60202B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F7650C56DE1EA9A727784758 /* Build configuration list for PBXProject "appy wappy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F765015C9B29886395DB5734;
+			productRefGroup = F7650D5ABF0532C036854F6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7650EB98A6A012CB70AFDF2 /* appy wappy */,
+				F765088DD8FD78D1B9285FA6 /* appy wappyTests */,
+				F7650A2D1E7125405AFA9A5F /* appy wappyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76502173E7121062D64D0C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F765043318CCA6DDAF0AA3FC /* Assets.xcassets in Resources */,
+				F76501946790381928DC46ED /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76509A4F63FD661874FFBA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7650EDD9947EC15467E6349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F765038653AEEB2A9545219C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76500153A7C9DA28ADE841F /* appy_wappyApp.swift in Sources */,
+				F76500D2AFA7A5928D7C3229 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F765077BEEE2B16EC6DFA6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76505DB6377135803B3BEC0 /* appy_wappyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76509039852129413B4F68A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76502E03EC5F0E92CBF83DE /* appy_wappyUITests.swift in Sources */,
+				F76501BAFDC74E47D601E00F /* appy_wappyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7650E6BD1CE9A035F49A222 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7650EB98A6A012CB70AFDF2 /* appy wappy */;
+			targetProxy = F7650E5CB74C13E28457EC9E /* PBXContainerItemProxy */;
+		};
+		F7650EB8FE1F4088B31F6A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7650EB98A6A012CB70AFDF2 /* appy wappy */;
+			targetProxy = F765057E7A6C167FC699C925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7650643524A4E4840D6E89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/appy wappy.app/appy wappy";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		F765064904548D4E861D0700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appy wappy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F76506D305EF1FFF140FE84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appy wappy";
+			};
+			name = Release;
+		};
+		F7650726FD15A336850B6649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/appy wappy.app/appy wappy";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F76507D62BD37F1760B35634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"appy wappy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7650870172DA4B65C0ABCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "graham.appy-wappyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "appy wappy";
+			};
+			name = Debug;
+		};
+		F7650A5FD07CD2AADA8A2C7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7650CAE5D0D5FB71B4E56F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76508D99314240048E97051 /* Build configuration list for PBXNativeTarget "appy wappyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7650726FD15A336850B6649 /* Debug */,
+				F7650643524A4E4840D6E89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7650A4BAA157984B8177C02 /* Build configuration list for PBXNativeTarget "appy wappyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7650870172DA4B65C0ABCA7 /* Debug */,
+				F76506D305EF1FFF140FE84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7650C56DE1EA9A727784758 /* Build configuration list for PBXProject "appy wappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7650CAE5D0D5FB71B4E56F0 /* Debug */,
+				F7650A5FD07CD2AADA8A2C7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7650E19C9266318F00A0E3E /* Build configuration list for PBXNativeTarget "appy wappy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76507D62BD37F1760B35634 /* Debug */,
+				F765064904548D4E861D0700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F765059F6A9585590C60202B /* Project object */;
+}
